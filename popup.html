@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Meet Link saver</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="manifest" href="manifest.json">
+
+</head>
+
+<body>
+  <div id="mainDiv">
+
+    <div class="default">
+      <h1>Open Google Meet Link</h1>
+    </div>
+
+    <div class="allMeetLinks">
+      <div class="header">
+        <h1>Save all your google meet links here!</h1>
+      </div>
+      <input type="text" placeholder="Enter details" id="details">
+      <span><button id="saveBtn">Save</button></span>
+      <h3 id="demo"></h3>
+      <br>
+    </div>
+
+    <div class='alertForAlreadySaved'>
+      <h3>Already Saved</h3>
+    </div>
+
+    <div>
+      <ul id="oneLink"></ul>
+    </div>
+
+    <script src="popup.js"></script>
+
+  </div>
+
+</body>
+
+</html>

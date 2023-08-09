@@ -1,0 +1,39 @@
+body{
+    width:500px;
+    height: 200px;
+   
+}
+
+li{
+   
+    list-style: square;
+    text-align: left;
+    font-size: small;
+
+}
+.allMeetLinks{
+    display: none;
+}
+h1{
+    text-align: center;
+    font-style: italic;
+    color: blue;
+    text-decoration: underline;
+}
+#mainDiv{
+   padding: 2px;
+}
+
+#oneLink{
+    padding : 2px;
+    
+}
+
+#saveBut{
+    color: black;
+    background-color: white;
+}
+
+.alertForAlreadySaved{
+    display: none;
+}
